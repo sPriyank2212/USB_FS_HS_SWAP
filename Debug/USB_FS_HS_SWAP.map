@@ -2931,6 +2931,749 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 ./FATFS/Target/usbh_diskio.o
  .debug_macro   0x00000000       0xf9 ./FATFS/Target/usbh_diskio.o
  .debug_macro   0x00000000       0xdb ./FATFS/Target/usbh_diskio.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .data          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .bss           0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .rodata        0x00000000        0x4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .data.HID_Class
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_InterfaceInit
+                0x00000000      0x288 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_InterfaceDeInit
+                0x00000000       0x8c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_ClassRequest
+                0x00000000       0xfc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_Process
+                0x00000000      0x1a4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_SOFProcess
+                0x00000000       0x42 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_GetHIDReportDescriptor
+                0x00000000       0x3e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_GetHIDDescriptor
+                0x00000000       0x3e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_SetIdle
+                0x00000000       0x50 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_SetReport
+                0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_GetReport
+                0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_SetProtocol
+                0x00000000       0x4c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_ParseHIDDesc
+                0x00000000       0xb6 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_GetDeviceType
+                0x00000000       0x54 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_GetPollInterval
+                0x00000000       0x5a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_FifoInit
+                0x00000000       0x38 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_FifoRead
+                0x00000000       0x92 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_FifoWrite
+                0x00000000       0xa8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .text.USBH_HID_EventCallback
+                0x00000000       0x14 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_info    0x00000000     0x13bb ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_abbrev  0x00000000      0x37e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_aranges
+                0x00000000       0xa8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_rnglists
+                0x00000000       0x80 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x3a9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0xad8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x5b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x94 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x43 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x57 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x370 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x4a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x8e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x185 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x146 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x3c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x29 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x29b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x103 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x6a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x1df ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0xfb ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000     0x1011 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x11f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000    0x15ea5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x6d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000     0x3693 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x980 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x9e9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x115 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x13e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0xa5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x174 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x287 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x236 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x12c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x21e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x127 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x7e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x89 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x2aa ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x293 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x98 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x12d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x73 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x23a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x5bf ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x12f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_macro   0x00000000      0x255 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_line    0x00000000     0x102d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_str     0x00000000    0xc5b09 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .comment       0x00000000       0x44 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .debug_frame   0x00000000      0x2bc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .ARM.attributes
+                0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .text          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .data          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .bss           0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .bss.keybd_info
+                0x00000000        0xf ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .bss.keybd_rx_report_buf
+                0x00000000        0x8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .bss.keybd_report_data
+                0x00000000        0x8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_lctrl
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_lshift
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_lalt
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_lgui
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_rctrl
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_rshift
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_ralt
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_rgui
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.imp_0_key_array
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.HID_KEYBRD_Key
+                0x00000000       0x84 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.HID_KEYBRD_ShiftKey
+                0x00000000       0x84 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .rodata.HID_KEYBRD_Codes
+                0x00000000       0xe8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .text.USBH_HID_KeybdInit
+                0x00000000       0xa8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .text.USBH_HID_GetKeybdInfo
+                0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .text.USBH_HID_KeybdDecode
+                0x00000000      0x128 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .text.USBH_HID_GetASCIICode
+                0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_info    0x00000000      0xf64 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_abbrev  0x00000000      0x2e2 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_aranges
+                0x00000000       0x38 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_rnglists
+                0x00000000       0x27 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x3e5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0xad8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x5b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x94 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x43 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x57 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x370 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x4a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x8e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x185 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x146 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x3c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x29 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x29b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x103 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x6a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x1df ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0xfb ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000     0x1011 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x11f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000    0x15ea5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x6d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000     0x3693 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x980 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x9e9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x115 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x13e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0xa5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x174 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x287 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x236 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x12c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x21e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x127 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x7e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x89 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x2aa ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x293 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x98 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x12d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x73 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x23a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x12f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x5bf ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_macro   0x00000000      0x255 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_line    0x00000000      0xbf5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_str     0x00000000    0xc59a7 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .comment       0x00000000       0x44 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .debug_frame   0x00000000       0xa4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .ARM.attributes
+                0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .text          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .data          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .bss           0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .bss.mouse_info
+                0x00000000        0x5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .bss.mouse_report_data
+                0x00000000        0x8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .bss.mouse_rx_report_buf
+                0x00000000        0x8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .rodata.prop_b1
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .rodata.prop_b2
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .rodata.prop_b3
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .rodata.prop_x
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .rodata.prop_y
+                0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .text.USBH_HID_MouseInit
+                0x00000000       0x94 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .text.USBH_HID_GetMouseInfo
+                0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .text.USBH_HID_MouseDecode
+                0x00000000       0xc0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_info    0x00000000      0xdc0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_abbrev  0x00000000      0x2b4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_aranges
+                0x00000000       0x30 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_rnglists
+                0x00000000       0x21 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x3ad ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0xad8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x5b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x94 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x43 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x57 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x370 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x4a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x8e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x185 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x146 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x3c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x29 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x29b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x103 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x6a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x1df ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0xfb ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000     0x1011 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x11f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000    0x15ea5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x6d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000     0x3693 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x980 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x9e9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x115 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x13e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0xa5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x174 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x287 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x236 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x12c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x21e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x127 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x7e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x89 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x2aa ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x293 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x98 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x12d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x73 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x23a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x5bf ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x12f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_macro   0x00000000      0x255 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_line    0x00000000      0xb4d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_str     0x00000000    0xc582d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .comment       0x00000000       0x44 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .debug_frame   0x00000000       0x7c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .ARM.attributes
+                0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .text          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .data          0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .bss           0x00000000        0x0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .text.HID_ReadItem
+                0x00000000      0x134 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .text.HID_WriteItem
+                0x00000000      0x12c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_info    0x00000000      0x25d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_abbrev  0x00000000       0xee ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_aranges
+                0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_rnglists
+                0x00000000       0x1b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x3a9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0xad8 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x5b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x94 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x43 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x57 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x370 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x4a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x58 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x8e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x185 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x146 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x3c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x29 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x29b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x103 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x6a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x1df ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x1c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x22 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0xfb ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000     0x1011 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x11f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000    0x15ea5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x6d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000     0x3693 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x980 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x9e9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x115 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x13e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0xa5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x174 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x287 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x236 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x12c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x21e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x127 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x7e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x89 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x2aa ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x293 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x98 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x12d ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x73 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x23a ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x2e ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x5bf ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x12f ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_macro   0x00000000      0x255 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_line    0x00000000      0xc36 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_str     0x00000000    0xc4d20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .comment       0x00000000       0x44 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .debug_frame   0x00000000       0x60 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+ .ARM.attributes
+                0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
  .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .group         0x00000000        0xc ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
@@ -3019,7 +3762,9 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x57 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
+ .debug_macro   0x00000000       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000      0x370 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
+ .debug_macro   0x00000000      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x10 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x16 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x4a ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
@@ -3052,6 +3797,7 @@ Discarded input sections
  .debug_macro   0x00000000    0x15ea5 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000       0x6d ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000     0x3693 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
+ .debug_macro   0x00000000       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000      0x980 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000      0x9e9 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
  .debug_macro   0x00000000      0x115 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
@@ -5316,6 +6062,10 @@ LOAD ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 LOAD ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
 LOAD ./FATFS/App/fatfs.o
 LOAD ./FATFS/Target/usbh_diskio.o
+LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
 LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
 LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.o
 LOAD ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.o
@@ -6849,7 +7599,7 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x00000d1b       0xa4 ./USB_HOST/Target/usbh_conf.o
 
-.debug_macro    0x00000000    0x2555b
+.debug_macro    0x00000000    0x25355
  .debug_macro   0x00000000      0x3ea ./Core/Src/File_Handling.o
  .debug_macro   0x000003ea      0xad8 ./Core/Src/File_Handling.o
  .debug_macro   0x00000ec2      0x29b ./Core/Src/File_Handling.o
@@ -6944,25 +7694,22 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x00021e50       0x16 ./FATFS/Target/usbh_diskio.o
  .debug_macro   0x00021e66       0x7c ./FATFS/Target/usbh_diskio.o
  .debug_macro   0x00021ee2      0x389 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
- .debug_macro   0x0002226b       0x9e ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
- .debug_macro   0x00022309      0x112 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
- .debug_macro   0x0002241b       0x56 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.o
- .debug_macro   0x00022471      0x38b ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.o
- .debug_macro   0x000227fc       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.o
- .debug_macro   0x0002285b      0x389 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.o
- .debug_macro   0x00022be4      0x372 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o
- .debug_macro   0x00022f56      0x36a ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
- .debug_macro   0x000232c0       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
- .debug_macro   0x000232e8      0x364 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o
- .debug_macro   0x0002364c      0x364 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.o
- .debug_macro   0x000239b0      0x3c7 ./Middlewares/Third_Party/FatFs/src/diskio.o
- .debug_macro   0x00023d77      0x7d5 ./Middlewares/Third_Party/FatFs/src/ff.o
- .debug_macro   0x0002454c       0x4c ./Middlewares/Third_Party/FatFs/src/ff.o
- .debug_macro   0x00024598      0x3c7 ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.o
- .debug_macro   0x0002495f      0x3b5 ./Middlewares/Third_Party/FatFs/src/option/ccsbcs.o
- .debug_macro   0x00024d14      0x3e8 ./USB_HOST/App/usb_host.o
- .debug_macro   0x000250fc       0xff ./USB_HOST/App/usb_host.o
- .debug_macro   0x000251fb      0x360 ./USB_HOST/Target/usbh_conf.o
+ .debug_macro   0x0002226b      0x38b ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.o
+ .debug_macro   0x000225f6       0x5f ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.o
+ .debug_macro   0x00022655      0x389 ./Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.o
+ .debug_macro   0x000229de      0x372 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o
+ .debug_macro   0x00022d50      0x36a ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
+ .debug_macro   0x000230ba       0x28 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
+ .debug_macro   0x000230e2      0x364 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o
+ .debug_macro   0x00023446      0x364 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.o
+ .debug_macro   0x000237aa      0x3c7 ./Middlewares/Third_Party/FatFs/src/diskio.o
+ .debug_macro   0x00023b71      0x7d5 ./Middlewares/Third_Party/FatFs/src/ff.o
+ .debug_macro   0x00024346       0x4c ./Middlewares/Third_Party/FatFs/src/ff.o
+ .debug_macro   0x00024392      0x3c7 ./Middlewares/Third_Party/FatFs/src/ff_gen_drv.o
+ .debug_macro   0x00024759      0x3b5 ./Middlewares/Third_Party/FatFs/src/option/ccsbcs.o
+ .debug_macro   0x00024b0e      0x3e8 ./USB_HOST/App/usb_host.o
+ .debug_macro   0x00024ef6       0xff ./USB_HOST/App/usb_host.o
+ .debug_macro   0x00024ff5      0x360 ./USB_HOST/Target/usbh_conf.o
 
 .debug_line     0x00000000    0x1d8c3
  .debug_line    0x00000000      0xf6f ./Core/Src/File_Handling.o
