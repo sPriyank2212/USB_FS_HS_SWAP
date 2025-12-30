@@ -1,3 +1,4 @@
-../USB_HOST/App/usb_host.c:68:6:MX_USB_HOST_Init	4
-../USB_HOST/App/usb_host.c:95:6:MX_USB_HOST_Process	1
-../USB_HOST/App/usb_host.c:103:13:USBH_UserProcess	4
+../USB_HOST/App/usb_host.c:73:6:MX_USB_HOST_Init	7
+../USB_HOST/App/usb_host.c:117:6:MX_USB_HOST_Process	1
+../USB_HOST/App/usb_host.c:126:13:USBH_UserProcess1	4
+../USB_HOST/App/usb_host.c:152:13:USBH_UserProcess2	8

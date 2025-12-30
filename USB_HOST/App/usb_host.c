@@ -22,15 +22,18 @@
 
 #include "usb_host.h"
 #include "usbh_core.h"
+#include "usbh_hid.h"
 #include "usbh_msc.h"
 
 /* USER CODE BEGIN Includes */
 #include "../../Core/Src/File_Handling.h"
+#include"main.h"
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+uint8_t msc_connected = 0;
+uint8_t hid_connected = 0;
 /* USER CODE END PV */
 
 /* USER CODE BEGIN PFP */
@@ -39,6 +42,7 @@
 /* USER CODE END PFP */
 
 /* USB Host core handle declaration */
+USBH_HandleTypeDef hUsbHostHS;
 USBH_HandleTypeDef hUsbHostFS;
 ApplicationTypeDef Appli_state = APPLICATION_IDLE;
 
@@ -52,7 +56,8 @@ ApplicationTypeDef Appli_state = APPLICATION_IDLE;
 /*
  * user callback declaration
  */
-static void USBH_UserProcess(USBH_HandleTypeDef *phost, uint8_t id);
+static void USBH_UserProcess1(USBH_HandleTypeDef *phost, uint8_t id);
+static void USBH_UserProcess2(USBH_HandleTypeDef *phost, uint8_t id);
 
 /*
  * -- Insert your external function declaration here --
@@ -72,7 +77,24 @@ void MX_USB_HOST_Init(void)
   /* USER CODE END USB_HOST_Init_PreTreatment */
 
   /* Init host Library, add supported class and start the library. */
-  if (USBH_Init(&hUsbHostFS, USBH_UserProcess, HOST_FS) != USBH_OK)
+  if (USBH_Init(&hUsbHostHS, USBH_UserProcess1, HOST_HS) != USBH_OK)
+  {
+    Error_Handler();
+  }
+  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASS) != USBH_OK)
+  {
+    Error_Handler();
+  }
+  if (USBH_Start(&hUsbHostHS) != USBH_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USB_HOST_Init_PreTreatment */
+
+  /* USER CODE END USB_HOST_Init_PreTreatment */
+
+  /* Init host Library, add supported class and start the library. */
+  if (USBH_Init(&hUsbHostFS, USBH_UserProcess2, HOST_FS) != USBH_OK)
   {
     Error_Handler();
   }
@@ -95,14 +117,15 @@ void MX_USB_HOST_Init(void)
 void MX_USB_HOST_Process(void)
 {
   /* USB Host Background task */
+  USBH_Process(&hUsbHostHS);
   USBH_Process(&hUsbHostFS);
 }
 /*
  * user callback definition
  */
-static void USBH_UserProcess  (USBH_HandleTypeDef *phost, uint8_t id)
+static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
 {
-  /* USER CODE BEGIN CALL_BACK_1 */
+  /* USER CODE BEGIN CALL_BACK_2 */
   switch(id)
   {
   case HOST_USER_SELECT_CONFIGURATION:
@@ -110,31 +133,10 @@ static void USBH_UserProcess  (USBH_HandleTypeDef *phost, uint8_t id)
 
   case HOST_USER_DISCONNECTION:
   Appli_state = APPLICATION_DISCONNECT;
-  Unmount_USB();
   break;
 
   case HOST_USER_CLASS_ACTIVE:
   Appli_state = APPLICATION_READY;
-
-  Mount_USB();
-
-  Check_USB_Details();   // check space details
-
-  Scan_USB("/");   // scan for files and directories
-
-  Create_File("/ROOTFILE.txt");
-  Write_File("/ROOTFILE.txt", "This data should be in root file\n");
-
-  Create_Dir("/DIR1");
-  Create_File("/DIR1/DIR1FILE.txt");
-  Write_File("/DIR1/DIR1FILE.txt", "This data should be in DIR1 file\n");
-
-  Create_Dir("/DIR2");
-  Create_Dir("/DIR2/SUBDIR1");
-  Create_File("/DIR2/SUBDIR1/DIR2FILE.txt");
-  Write_File("/DIR2/SUBDIR1/DIR2FILE.txt", "This data should be in DIR2/SUBDIR1 file\n as i have nothing better to write/n so i just wrote this\n");
-
-  Update_File("/ROOTFILE.txt", "This updated data must be in second line of Root File\n");
   break;
 
   case HOST_USER_CONNECTION:
@@ -144,7 +146,57 @@ static void USBH_UserProcess  (USBH_HandleTypeDef *phost, uint8_t id)
   default:
   break;
   }
-  /* USER CODE END CALL_BACK_1 */
+  /* USER CODE END CALL_BACK_2 */
+}
+
+static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
+{
+  /* USER CODE BEGIN CALL_BACK_21 */
+  switch(id)
+  {
+  case HOST_USER_SELECT_CONFIGURATION:
+  break;
+
+  case HOST_USER_DISCONNECTION:
+  Appli_state = APPLICATION_DISCONNECT;
+  break;
+
+  case HOST_USER_CLASS_ACTIVE:
+  Appli_state = APPLICATION_READY;
+  char Uart_Buf[100];
+	if (USBH_HID_GetDeviceType(phost) == HID_MOUSE)
+	{
+		HID_MOUSE_Info_TypeDef *Mouse_Info;
+		Mouse_Info = USBH_HID_GetMouseInfo(phost);
+		int X_VAL = Mouse_Info->x;
+		int Y_VAL = Mouse_Info->y;
+		if (X_VAL > 127) X_VAL -= 255;
+		if (Y_VAL > 127) Y_VAL -= 255;
+
+		int len = sprintf (Uart_Buf, "X=%d, Y=%d, Button1=%d, Button2=%d, Button3=%d\n", X_VAL, Y_VAL, \
+				                                Mouse_Info->buttons[0],Mouse_Info->buttons[1], Mouse_Info->buttons[2]);
+		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
+	}
+
+	if (USBH_HID_GetDeviceType(phost) == HID_KEYBOARD)
+	{
+		HID_KEYBD_Info_TypeDef *Keyboard_Info;
+		Keyboard_Info = USBH_HID_GetKeybdInfo(phost);
+		char key = USBH_HID_GetASCIICode (Keyboard_Info);
+
+		int len = sprintf (Uart_Buf, "Key Pressed = %c\n", key);
+		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
+	}
+  break;
+
+  case HOST_USER_CONNECTION:
+  Appli_state = APPLICATION_START;
+  break;
+
+  default:
+  break;
+  }
+  /* USER CODE END CALL_BACK_21 */
 }
 
 /**

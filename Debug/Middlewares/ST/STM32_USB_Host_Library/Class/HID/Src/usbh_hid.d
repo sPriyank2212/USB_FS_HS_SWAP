@@ -1,6 +1,6 @@
 Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o: \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../USB_HOST/Target/usbh_conf.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -36,12 +36,12 @@ Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o: \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_mouse.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_keybd.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_parser.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_usage.h
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid.h:
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_mouse.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_keybd.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_parser.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_usage.h
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 ../USB_HOST/Target/usbh_conf.h:
 ../Core/Inc/main.h:
@@ -78,8 +78,8 @@ Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o: \
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h:
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_mouse.h:
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid.h:
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_keybd.h:
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_parser.h:
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/../inc/usbh_hid_usage.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_mouse.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_keybd.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_parser.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_usage.h:

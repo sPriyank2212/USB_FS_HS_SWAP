@@ -35,6 +35,10 @@ USB_HOST/App/usb_host.o: ../USB_HOST/App/usb_host.c \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_mouse.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h \
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_keybd.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h \
@@ -81,6 +85,10 @@ USB_HOST/App/usb_host.o: ../USB_HOST/App/usb_host.c \
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_mouse.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid.h:
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_keybd.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h:
