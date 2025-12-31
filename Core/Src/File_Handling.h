@@ -54,7 +54,11 @@ void Check_USB_Details (void);
  */
 FRESULT Update_File (char *name, char *data);
 
+/* Benchmark test: Write 5MB file and measure speed */
+void Benchmark_Write_Test(void);
 
+/* Benchmark test: Read 5MB file and measure speed */
+void Benchmark_Read_Test(void);
 
 
 #endif /* FILE_HANDLING_RTOS_H_ */

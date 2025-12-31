@@ -7,10 +7,11 @@
 
 #include "File_Handling.h"
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_gpio.h"
 
 
-extern UART_HandleTypeDef huart2;
-#define UART &huart2
+extern UART_HandleTypeDef huart1;
+#define UART &huart1  // MSC (Pendrive) operations output to UART1
 
 
 
@@ -455,5 +456,184 @@ void Check_USB_Details (void)
     sprintf (buf, "USB Free Space: \t%lu\n",free_space);
     Send_Uart(buf);
     free(buf);
+}
+
+/* ===== BENCHMARK FUNCTIONS FOR PENDRIVE SPEED TEST ===== */
+
+/* Write benchmark: Create 5MB file with dummy data and measure time */
+void Benchmark_Write_Test(void)
+{
+	char *buf = malloc(150*sizeof(char));
+	uint32_t start_time, end_time, elapsed_time;
+	uint32_t file_size = 5 * 1024 * 1024;  // 5 MB
+	uint32_t chunk_size = 4096;  // 4KB chunks
+	uint32_t chunks_written = 0;
+
+	// LED: Start blinking (will be handled in callback)
+
+	sprintf(buf, "\r\n[BENCHMARK] Starting WRITE test (5MB file)...\r\n");
+	Send_Uart(buf);
+
+	// Create/Open file for writing
+	fresult = f_open(&USBHFile, "benchmark.bin", FA_CREATE_ALWAYS | FA_WRITE);
+	if (fresult != FR_OK) {
+		sprintf(buf, "[ERROR] Failed to create benchmark file! Error: %d\r\n", fresult);
+		Send_Uart(buf);
+		free(buf);
+		return;
+	}
+
+	// Allocate buffer for dummy data
+	uint8_t *write_buffer = malloc(chunk_size);
+	if (write_buffer == NULL) {
+		sprintf(buf, "[ERROR] Memory allocation failed!\r\n");
+		Send_Uart(buf);
+		f_close(&USBHFile);
+		free(buf);
+		return;
+	}
+
+	// Fill buffer with pattern (0x55 alternating with chunk number)
+	for (uint32_t i = 0; i < chunk_size; i++) {
+		write_buffer[i] = 0x55;
+	}
+
+	// Start timing
+	start_time = HAL_GetTick();
+
+	// Write 5MB in chunks
+	uint32_t bytes_to_write = file_size;
+	while (bytes_to_write > 0) {
+		uint32_t write_size = (bytes_to_write > chunk_size) ? chunk_size : bytes_to_write;
+
+		fresult = f_write(&USBHFile, write_buffer, write_size, &bw);
+		if (fresult != FR_OK || bw != write_size) {
+			sprintf(buf, "[ERROR] Write failed at chunk %lu! Error: %d\r\n", chunks_written, fresult);
+			Send_Uart(buf);
+			break;
+		}
+
+		bytes_to_write -= write_size;
+		chunks_written++;
+
+		// Toggle LED every 256KB
+		if (chunks_written % 64 == 0) {
+			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+		}
+	}
+
+	// End timing
+	end_time = HAL_GetTick();
+	elapsed_time = end_time - start_time;
+
+	// Close file
+	f_close(&USBHFile);
+	free(write_buffer);
+
+	// Calculate speed
+	float speed_kbps = (float)(file_size / 1024) / ((float)elapsed_time / 1000.0f);
+
+	sprintf(buf, "[BENCHMARK] WRITE Complete!\r\n");
+	Send_Uart(buf);
+	sprintf(buf, "  File Size: 5 MB (%lu bytes)\r\n", file_size);
+	Send_Uart(buf);
+	sprintf(buf, "  Time: %lu ms\r\n", elapsed_time);
+	Send_Uart(buf);
+	sprintf(buf, "  Speed: %.2f KB/s\r\n", speed_kbps);
+	Send_Uart(buf);
+	sprintf(buf, "  Chunks written: %lu\r\n\r\n", chunks_written);
+	Send_Uart(buf);
+
+	free(buf);
+}
+
+/* Read benchmark: Read the 5MB file and measure time */
+void Benchmark_Read_Test(void)
+{
+	char *buf = malloc(150*sizeof(char));
+	uint32_t start_time, end_time, elapsed_time;
+	uint32_t chunk_size = 4096;  // 4KB chunks
+	uint32_t chunks_read = 0;
+	uint32_t total_bytes_read = 0;
+
+	sprintf(buf, "[BENCHMARK] Starting READ test...\r\n");
+	Send_Uart(buf);
+
+	// Check if file exists
+	fresult = f_stat("benchmark.bin", &USBHfno);
+	if (fresult != FR_OK) {
+		sprintf(buf, "[ERROR] Benchmark file not found!\r\n");
+		Send_Uart(buf);
+		free(buf);
+		return;
+	}
+
+	// Open file for reading
+	fresult = f_open(&USBHFile, "benchmark.bin", FA_READ);
+	if (fresult != FR_OK) {
+		sprintf(buf, "[ERROR] Failed to open benchmark file! Error: %d\r\n", fresult);
+		Send_Uart(buf);
+		free(buf);
+		return;
+	}
+
+	uint32_t file_size = f_size(&USBHFile);
+
+	// Allocate read buffer
+	uint8_t *read_buffer = malloc(chunk_size);
+	if (read_buffer == NULL) {
+		sprintf(buf, "[ERROR] Memory allocation failed!\r\n");
+		Send_Uart(buf);
+		f_close(&USBHFile);
+		free(buf);
+		return;
+	}
+
+	// Start timing
+	start_time = HAL_GetTick();
+
+	// Read entire file in chunks
+	while (total_bytes_read < file_size) {
+		fresult = f_read(&USBHFile, read_buffer, chunk_size, &br);
+		if (fresult != FR_OK) {
+			sprintf(buf, "[ERROR] Read failed at chunk %lu! Error: %d\r\n", chunks_read, fresult);
+			Send_Uart(buf);
+			break;
+		}
+
+		if (br == 0) break;  // End of file
+
+		total_bytes_read += br;
+		chunks_read++;
+
+		// Toggle LED every 256KB
+		if (chunks_read % 64 == 0) {
+			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+		}
+	}
+
+	// End timing
+	end_time = HAL_GetTick();
+	elapsed_time = end_time - start_time;
+
+	// Close file
+	f_close(&USBHFile);
+	free(read_buffer);
+
+	// Calculate speed
+	float speed_kbps = (float)(total_bytes_read / 1024) / ((float)elapsed_time / 1000.0f);
+
+	sprintf(buf, "[BENCHMARK] READ Complete!\r\n");
+	Send_Uart(buf);
+	sprintf(buf, "  File Size: %lu bytes (%.2f MB)\r\n", total_bytes_read, (float)total_bytes_read / (1024.0f * 1024.0f));
+	Send_Uart(buf);
+	sprintf(buf, "  Time: %lu ms\r\n", elapsed_time);
+	Send_Uart(buf);
+	sprintf(buf, "  Speed: %.2f KB/s\r\n", speed_kbps);
+	Send_Uart(buf);
+	sprintf(buf, "  Chunks read: %lu\r\n\r\n", chunks_read);
+	Send_Uart(buf);
+
+	free(buf);
 }
 
