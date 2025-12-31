@@ -17,7 +17,7 @@
 ../Middlewares/Third_Party/FatFs/src/ff.c:912:9:move_window	24	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:944:9:sync_fs	24	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:983:7:clust2sect	16	static
-../Middlewares/Third_Party/FatFs/src/ff.c:1001:7:get_fat	56	static
+../Middlewares/Third_Party/FatFs/src/ff.c:1001:7:get_fat	40	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1081:9:put_fat	48	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1146:7:find_bitmap	48	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1187:9:change_bitmap	40	static
@@ -25,7 +25,7 @@
 ../Middlewares/Third_Party/FatFs/src/ff.c:1246:9:fill_last_frag	32	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1271:9:remove_chain	48	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1351:7:create_chain	40	static
-../Middlewares/Third_Party/FatFs/src/ff.c:1440:7:clmt_clust	56	static
+../Middlewares/Third_Party/FatFs/src/ff.c:1440:7:clmt_clust	48	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1470:9:dir_sdi	32	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1519:9:dir_next	32	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:1589:9:dir_alloc	32	static
@@ -56,12 +56,12 @@
 ../Middlewares/Third_Party/FatFs/src/ff.c:2993:9:find_volume	144	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:3216:9:validate	24	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:3260:9:f_mount	40	static
-../Middlewares/Third_Party/FatFs/src/ff.c:3308:9:f_open	192	static
-../Middlewares/Third_Party/FatFs/src/ff.c:3511:9:f_read	128	static
-../Middlewares/Third_Party/FatFs/src/ff.c:3611:9:f_write	104	static
+../Middlewares/Third_Party/FatFs/src/ff.c:3308:9:f_open	184	static
+../Middlewares/Third_Party/FatFs/src/ff.c:3511:9:f_read	120	static
+../Middlewares/Third_Party/FatFs/src/ff.c:3611:9:f_write	88	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:3732:9:f_sync	112	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:3813:9:f_close	24	static
-../Middlewares/Third_Party/FatFs/src/ff.c:4001:9:f_lseek	264	static
+../Middlewares/Third_Party/FatFs/src/ff.c:4001:9:f_lseek	248	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:4162:9:f_opendir	32	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:4232:9:f_closedir	24	static
 ../Middlewares/Third_Party/FatFs/src/ff.c:4265:9:f_readdir	24	static

@@ -41,7 +41,8 @@ HCD_HandleTypeDef hhcd_USB_OTG_HS;
 void Error_Handler(void);
 
 /* USER CODE BEGIN 0 */
-
+__attribute__((section(".ccmram"))) uint8_t USB_HS_MSC_BUFFER[8192];
+__attribute__((section(".ccmram"))) uint8_t USB_FS_HID_BUFFER[512];
 /* USER CODE END 0 */
 
 /* USER CODE BEGIN PFP */
@@ -530,7 +531,8 @@ USBH_StatusTypeDef USBH_LL_DriverVBUS(USBH_HandleTypeDef *phost, uint8_t state)
 {
 
   /* USER CODE BEGIN 0 */
-
+//__attribute__((section(".ccmram"))) uint8_t USB_HS_MSC_BUFFER[8192];
+//__attribute__((section(".ccmram"))) uint8_t USB_FS_HID_BUFFER[512];
   /* USER CODE END 0*/
 
   if (phost->id == HOST_FS)

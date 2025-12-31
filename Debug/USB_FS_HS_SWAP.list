@@ -29,25 +29,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  12 .ARM.attributes 00000030  00000000  00000000  0000d09c  2**0
                   CONTENTS, READONLY
- 13 .debug_info   00019992  00000000  00000000  0000d0cc  2**0
+ 13 .debug_info   000199ba  00000000  00000000  0000d0cc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_abbrev 0000470e  00000000  00000000  00026a5e  2**0
+ 14 .debug_abbrev 0000470d  00000000  00000000  00026a86  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_aranges 00000f98  00000000  00000000  0002b170  2**3
+ 15 .debug_aranges 00000f98  00000000  00000000  0002b198  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_rnglists 00000bb3  00000000  00000000  0002c108  2**0
+ 16 .debug_rnglists 00000bb3  00000000  00000000  0002c130  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_macro  000063a4  00000000  00000000  0002ccbb  2**0
+ 17 .debug_macro  000063a4  00000000  00000000  0002cce3  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   000192cc  00000000  00000000  0003305f  2**0
+ 18 .debug_line   000192cc  00000000  00000000  00033087  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000cb37c  00000000  00000000  0004c32b  2**0
+ 19 .debug_str    000cb398  00000000  00000000  0004c353  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  001176a7  2**0
+ 20 .comment      00000043  00000000  00000000  001176eb  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  000042e4  00000000  00000000  001176ec  2**2
+ 21 .debug_frame  000042e4  00000000  00000000  00117730  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 0000006a  00000000  00000000  0011b9d0  2**0
+ 22 .debug_line_str 0000006a  00000000  00000000  0011ba14  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -15213,7 +15213,7 @@ DSTATUS USBH_status(BYTE lun)
  8006052:	46bd      	mov	sp, r7
  8006054:	bd80      	pop	{r7, pc}
  8006056:	bf00      	nop
- 8006058:	20000530 	.word	0x20000530
+ 8006058:	20000154 	.word	0x20000154
 
 0800605c <USBH_read>:
   * @param  sector: Sector address (LBA)
@@ -15298,7 +15298,7 @@ DRESULT USBH_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
  80060c6:	3748      	adds	r7, #72	@ 0x48
  80060c8:	46bd      	mov	sp, r7
  80060ca:	bd80      	pop	{r7, pc}
- 80060cc:	20000530 	.word	0x20000530
+ 80060cc:	20000154 	.word	0x20000154
 
 080060d0 <USBH_write>:
   * @param  count: Number of sectors to write (1..128)
@@ -15395,7 +15395,7 @@ DRESULT USBH_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
  800614a:	3748      	adds	r7, #72	@ 0x48
  800614c:	46bd      	mov	sp, r7
  800614e:	bd80      	pop	{r7, pc}
- 8006150:	20000530 	.word	0x20000530
+ 8006150:	20000154 	.word	0x20000154
 
 08006154 <USBH_ioctl>:
   * @param  *buff: Buffer to send/receive control data
@@ -15551,7 +15551,7 @@ DRESULT USBH_ioctl(BYTE lun, BYTE cmd, void *buff)
  8006222:	3740      	adds	r7, #64	@ 0x40
  8006224:	46bd      	mov	sp, r7
  8006226:	bd80      	pop	{r7, pc}
- 8006228:	20000530 	.word	0x20000530
+ 8006228:	20000154 	.word	0x20000154
 
 0800622c <USBH_HID_InterfaceInit>:
   *         The function init the HID class.
@@ -26931,7 +26931,7 @@ void MX_USB_HOST_Init(void)
     Error_Handler();
  800a39c:	f7f6 f9da 	bl	8000754 <Error_Handler>
   }
-  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASS) != USBH_OK)
+  if (USBH_RegisterClass(&hUsbHostHS, USBH_MSC_CLASS) != USBH_OK)
  800a3a0:	4918      	ldr	r1, [pc, #96]	@ (800a404 <MX_USB_HOST_Init+0x7c>)
  800a3a2:	4817      	ldr	r0, [pc, #92]	@ (800a400 <MX_USB_HOST_Init+0x78>)
  800a3a4:	f7fe fb39 	bl	8008a1a <USBH_RegisterClass>
@@ -26968,7 +26968,7 @@ void MX_USB_HOST_Init(void)
     Error_Handler();
  800a3d2:	f7f6 f9bf 	bl	8000754 <Error_Handler>
   }
-  if (USBH_RegisterClass(&hUsbHostFS, USBH_MSC_CLASS) != USBH_OK)
+  if (USBH_RegisterClass(&hUsbHostFS, USBH_HID_CLASS) != USBH_OK)
  800a3d6:	490e      	ldr	r1, [pc, #56]	@ (800a410 <MX_USB_HOST_Init+0x88>)
  800a3d8:	480c      	ldr	r0, [pc, #48]	@ (800a40c <MX_USB_HOST_Init+0x84>)
  800a3da:	f7fe fb1e 	bl	8008a1a <USBH_RegisterClass>
@@ -26997,10 +26997,10 @@ void MX_USB_HOST_Init(void)
  800a3fa:	bd80      	pop	{r7, pc}
  800a3fc:	0800a431 	.word	0x0800a431
  800a400:	20000154 	.word	0x20000154
- 800a404:	2000000c 	.word	0x2000000c
+ 800a404:	2000002c 	.word	0x2000002c
  800a408:	0800a48d 	.word	0x0800a48d
  800a40c:	20000530 	.word	0x20000530
- 800a410:	2000002c 	.word	0x2000002c
+ 800a410:	2000000c 	.word	0x2000000c
 
 0800a414 <MX_USB_HOST_Process>:
 
