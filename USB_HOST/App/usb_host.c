@@ -95,6 +95,9 @@ void MX_USB_HOST_Init(void)
   }
   /* USER CODE BEGIN USB_HOST_Init_PreTreatment */
 
+  /* Add delay between USB host initializations to prevent enumeration conflicts */
+  HAL_Delay(100);
+
   /* USER CODE END USB_HOST_Init_PreTreatment */
 
   /* Init host Library, add supported class and start the library. */
