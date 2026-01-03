@@ -241,7 +241,18 @@ void HAL_HCD_PortEnabled_Callback(HCD_HandleTypeDef *hhcd)
   */
 void HAL_HCD_PortDisabled_Callback(HCD_HandleTypeDef *hhcd)
 {
+  /* CRITICAL FIX: Ignore spurious port disable events when VBUS sensing is disabled
+   * Without proper VBUS hardware, the controller may generate false port disable
+   * interrupts. Only process genuine disconnection events detected by the USB library.
+   */
+  #if 0
   USBH_LL_PortDisabled(hhcd->pData);
+  #endif
+
+  /* Port disabled callback is intentionally ignored to prevent spurious disconnections
+   * on boards without proper VBUS sensing hardware. The USB host library will detect
+   * actual device disconnections through other mechanisms (D+/D- line monitoring).
+   */
 }
 
 /*******************************************************************************
@@ -275,6 +286,15 @@ USBH_StatusTypeDef USBH_LL_Init(USBH_HandleTypeDef *phost)
     Error_Handler( );
   }
 
+  /* CRITICAL: Force disable VBUS sensing after HCD init */
+  USB_OTG_FS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
+  USB_OTG_FS->GCCFG &= ~USB_OTG_GCCFG_VBUSBSEN;
+  USB_OTG_FS->GCCFG &= ~USB_OTG_GCCFG_VBUSASEN;
+
+  /* Force B-session valid for device mode */
+  USB_OTG_FS->GOTGCTL |= USB_OTG_GOTGCTL_BVALOEN;
+  USB_OTG_FS->GOTGCTL |= USB_OTG_GOTGCTL_BVALOVAL;
+
   USBH_LL_SetTimer(phost, HAL_HCD_GetCurrentFrame(&hhcd_USB_OTG_FS));
   }
   if (phost->id == HOST_HS) {
@@ -295,6 +315,15 @@ USBH_StatusTypeDef USBH_LL_Init(USBH_HandleTypeDef *phost)
   {
     Error_Handler( );
   }
+
+  /* CRITICAL: Force disable VBUS sensing after HCD init */
+  USB_OTG_HS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
+  USB_OTG_HS->GCCFG &= ~USB_OTG_GCCFG_VBUSBSEN;
+  USB_OTG_HS->GCCFG &= ~USB_OTG_GCCFG_VBUSASEN;
+
+  /* Force B-session valid for device mode */
+  USB_OTG_HS->GOTGCTL |= USB_OTG_GOTGCTL_BVALOEN;
+  USB_OTG_HS->GOTGCTL |= USB_OTG_GOTGCTL_BVALOVAL;
 
   USBH_LL_SetTimer(phost, HAL_HCD_GetCurrentFrame(&hhcd_USB_OTG_HS));
   }
