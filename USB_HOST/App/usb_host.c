@@ -49,7 +49,7 @@ typedef struct {
 USB_Device_State_t msc_state = {0};
 USB_Device_State_t hid_state = {0};
 
-#define DEBOUNCE_TIME_MS  200  // 200ms debounce for connection stability
+#define DEBOUNCE_TIME_MS  100  // 100ms debounce for connection stability
 
 /* External UART handles for separate outputs */
 extern UART_HandleTypeDef huart1;  // For MSC (Pendrive) on USB_OTG_HS
@@ -283,41 +283,34 @@ static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
     break;
 
   case HOST_USER_CLASS_ACTIVE:
-    // Only proceed if connection is stable (debounced)
-    if(HAL_GetTick() - hid_state.connect_time > DEBOUNCE_TIME_MS)
+    // Mark as stable after debounce period
+    if(!hid_state.stable)
     {
-      if(!hid_state.stable) {
+      uint32_t elapsed = HAL_GetTick() - hid_state.connect_time;
+      if(elapsed > DEBOUNCE_TIME_MS)
+      {
         hid_state.stable = 1;
         Appli_state = APPLICATION_READY;
 
         if (USBH_HID_GetDeviceType(phost) == HID_MOUSE)
         {
-          len = sprintf(Uart_Buf, "[UART2-HID] Mouse Connected and Stable!\r\n");
-          HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
-
-          HID_MOUSE_Info_TypeDef *Mouse_Info;
-          Mouse_Info = USBH_HID_GetMouseInfo(phost);
-          int X_VAL = Mouse_Info->x;
-          int Y_VAL = Mouse_Info->y;
-          if (X_VAL > 127) X_VAL -= 255;
-          if (Y_VAL > 127) Y_VAL -= 255;
-
-          len = sprintf(Uart_Buf, "[UART2-HID] Mouse: X=%d, Y=%d, Btn1=%d, Btn2=%d, Btn3=%d\r\n",
-                        X_VAL, Y_VAL, Mouse_Info->buttons[0], Mouse_Info->buttons[1], Mouse_Info->buttons[2]);
+          len = sprintf(Uart_Buf, "[UART2-HID] Mouse Connected and Stable! (Debounced after %lums)\r\n", elapsed);
           HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
         }
-
-        if (USBH_HID_GetDeviceType(phost) == HID_KEYBOARD)
+        else if (USBH_HID_GetDeviceType(phost) == HID_KEYBOARD)
         {
-          len = sprintf(Uart_Buf, "[UART2-HID] Keyboard Connected and Stable!\r\n");
+          len = sprintf(Uart_Buf, "[UART2-HID] Keyboard Connected and Stable! (Debounced after %lums)\r\n", elapsed);
           HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
-
-          HID_KEYBD_Info_TypeDef *Keyboard_Info;
-          Keyboard_Info = USBH_HID_GetKeybdInfo(phost);
-          char key = USBH_HID_GetASCIICode(Keyboard_Info);
-
-          len = sprintf(Uart_Buf, "[UART2-HID] Key Pressed = %c\r\n", key);
+        }
+      }
+      else
+      {
+        // Still waiting for debounce - log this for debugging
+        static uint32_t last_debug_msg = 0;
+        if(HAL_GetTick() - last_debug_msg > 50) {
+          len = sprintf(Uart_Buf, "[UART2-HID] Waiting for debounce... %lums/%dms\r\n", elapsed, DEBOUNCE_TIME_MS);
           HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
+          last_debug_msg = HAL_GetTick();
         }
       }
     }

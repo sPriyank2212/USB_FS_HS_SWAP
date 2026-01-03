@@ -62,34 +62,34 @@ void MX_USB_HOST_Process(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-//char Uart_Buf[100];
-//
-//void USBH_HID_EventCallback(USBH_HandleTypeDef *phost)
-//{
-//	if (USBH_HID_GetDeviceType(phost) == HID_MOUSE)
-//	{
-//		HID_MOUSE_Info_TypeDef *Mouse_Info;
-//		Mouse_Info = USBH_HID_GetMouseInfo(phost);
-//		int X_VAL = Mouse_Info->x;
-//		int Y_VAL = Mouse_Info->y;
-//		if (X_VAL > 127) X_VAL -= 255;
-//		if (Y_VAL > 127) Y_VAL -= 255;
-//
-//		int len = sprintf (Uart_Buf, "X=%d, Y=%d, Button1=%d, Button2=%d, Button3=%d\n", X_VAL, Y_VAL, \
-//				                                Mouse_Info->buttons[0],Mouse_Info->buttons[1], Mouse_Info->buttons[2]);
-//		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
-//	}
-//
-//	if (USBH_HID_GetDeviceType(phost) == HID_KEYBOARD)
-//	{
-//		HID_KEYBD_Info_TypeDef *Keyboard_Info;
-//		Keyboard_Info = USBH_HID_GetKeybdInfo(phost);
-//		char key = USBH_HID_GetASCIICode (Keyboard_Info);
-//
-//		int len = sprintf (Uart_Buf, "Key Pressed = %c\n", key);
-//		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
-//	}
-//}
+char Uart_Buf[100];
+
+void USBH_HID_EventCallback(USBH_HandleTypeDef *phost)
+{
+	if (USBH_HID_GetDeviceType(phost) == HID_MOUSE)
+	{
+		HID_MOUSE_Info_TypeDef *Mouse_Info;
+		Mouse_Info = USBH_HID_GetMouseInfo(phost);
+		int X_VAL = Mouse_Info->x;
+		int Y_VAL = Mouse_Info->y;
+		if (X_VAL > 127) X_VAL -= 255;
+		if (Y_VAL > 127) Y_VAL -= 255;
+
+		int len = sprintf (Uart_Buf, "[UART2-HID] X=%d, Y=%d, Btn1=%d, Btn2=%d, Btn3=%d\r\n", X_VAL, Y_VAL, \
+				                                Mouse_Info->buttons[0],Mouse_Info->buttons[1], Mouse_Info->buttons[2]);
+		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
+	}
+
+	if (USBH_HID_GetDeviceType(phost) == HID_KEYBOARD)
+	{
+		HID_KEYBD_Info_TypeDef *Keyboard_Info;
+		Keyboard_Info = USBH_HID_GetKeybdInfo(phost);
+		char key = USBH_HID_GetASCIICode (Keyboard_Info);
+
+		int len = sprintf (Uart_Buf, "[UART2-HID] Key Pressed = %c\r\n", key);
+		HAL_UART_Transmit(&huart2, (uint8_t *)Uart_Buf, len, 1000);
+	}
+}
 /* USER CODE END 0 */
 
 /**
