@@ -69,8 +69,8 @@ all: main-build
 main-build: USB_FS_HS_SWAP.elf secondary-outputs
 
 # Tool invocations
-USB_FS_HS_SWAP.elf USB_FS_HS_SWAP.map: $(OBJS) $(USER_OBJS) C:\Users\psoni\STM32CubeIDE\workspace_1.19.0\USB_FS_HS_SWAP\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "USB_FS_HS_SWAP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\psoni\STM32CubeIDE\workspace_1.19.0\USB_FS_HS_SWAP\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_FS_HS_SWAP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+USB_FS_HS_SWAP.elf USB_FS_HS_SWAP.map: $(OBJS) $(USER_OBJS) C:\Users\psoni\Documents\stm_usb\stm32-usbx-examples\Projects\USB_FS_HS_SWAP\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "USB_FS_HS_SWAP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\psoni\Documents\stm_usb\stm32-usbx-examples\Projects\USB_FS_HS_SWAP\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_FS_HS_SWAP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

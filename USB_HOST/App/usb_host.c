@@ -159,7 +159,7 @@ static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
     HAL_UART_Transmit(&huart1, (uint8_t *)Uart_Buf, len, 1000);
 
     // Print MSC device info
-    USBH_MSC_GetLUNInfo(phost, 0);
+//    USBH_MSC_GetLUNInfo(phost, 0);
 
     // Mount USB and perform file operations
     Mount_USB();
