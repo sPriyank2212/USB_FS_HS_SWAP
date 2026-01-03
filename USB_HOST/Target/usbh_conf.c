@@ -87,8 +87,13 @@ void HAL_HCD_MspInit(HCD_HandleTypeDef* hcdHandle)
     /* Peripheral clock enable */
     __HAL_RCC_USB_OTG_FS_CLK_ENABLE();
 
-    /* Peripheral interrupt init */
-    HAL_NVIC_SetPriority(OTG_FS_IRQn, 6, 0);
+    /* CRITICAL: Disable VBUS sensing for black board compatibility */
+    USB_OTG_FS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
+    USB_OTG_FS->GCCFG &= ~USB_OTG_GCCFG_VBUSBSEN;
+    USB_OTG_FS->GCCFG &= ~USB_OTG_GCCFG_VBUSASEN;
+
+    /* Peripheral interrupt init - Higher priority for HID (time-critical 1ms polling) */
+    HAL_NVIC_SetPriority(OTG_FS_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(OTG_FS_IRQn);
   /* USER CODE BEGIN USB_OTG_FS_MspInit 1 */
 
@@ -115,8 +120,13 @@ void HAL_HCD_MspInit(HCD_HandleTypeDef* hcdHandle)
     /* Peripheral clock enable */
     __HAL_RCC_USB_OTG_HS_CLK_ENABLE();
 
-    /* Peripheral interrupt init */
-    HAL_NVIC_SetPriority(OTG_HS_IRQn, 5, 0);
+    /* CRITICAL: Disable VBUS sensing for black board compatibility */
+    USB_OTG_HS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
+    USB_OTG_HS->GCCFG &= ~USB_OTG_GCCFG_VBUSBSEN;
+    USB_OTG_HS->GCCFG &= ~USB_OTG_GCCFG_VBUSASEN;
+
+    /* Peripheral interrupt init - Lower priority for MSC (less time-critical) */
+    HAL_NVIC_SetPriority(OTG_HS_IRQn, 6, 0);
     HAL_NVIC_EnableIRQ(OTG_HS_IRQn);
   /* USER CODE BEGIN USB_OTG_HS_MspInit 1 */
 
